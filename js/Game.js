@@ -17,6 +17,7 @@ class Game {
       return arr;
     }
   
+    // method to generate a random phrase
     randomPhrase() {
       const randomPhrase = this.phrases[
         Math.floor(Math.random() * this.phrases.length)
