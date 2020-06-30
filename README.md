@@ -7,3 +7,7 @@ App.js declares the global variable for the game "phraseGame". Then I select the
 The Phrase.js file contains the Phrase class which first converts all phrases to lowercase. I add a method, 'addPhraseToDisplay' which maps, the phrases as an array, checks if a character is selected and creates a list element which is appended to the unordered list element. 
 
 The checkLetter method checks the letter class length. If there is no letter a boolean value is not returned.
+
+ShowMatchedLetter method will hide or show the letter class.
+
+The third file, game.js instantiates the actual phrases for the game in an array, chooses a random phrase to instantiate, starts the game by calling reset function, adding a random phrase, and adding a random phrase to the active phrase. This file also checks for a game win or if the user loses. 
