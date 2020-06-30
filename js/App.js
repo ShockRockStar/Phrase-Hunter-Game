@@ -1,5 +1,5 @@
 
-
+//Declare a variable for the game, and add event listeners, to listen for players mouse click
 let phraseGame;
 
 document.getElementById("btn__reset").addEventListener("click", () => {
